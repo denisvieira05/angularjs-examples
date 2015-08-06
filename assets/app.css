@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f6f8;
+}
+
+h1 small {
+    color: #bdc3c7;
+}
+
+header{
+    padding: 50px 0px;
+}
+
+ng-view {
+    display: block;
+    position: relative;
+}
+.ng-enter {
+    -webkit-animation: enter 1s ease-in;
+    animation: enter 1s ease-in;
+}
+.ng-leave {
+    -webkit-animation: leave .5s ease-in;
+    animation: leave .5s ease-in;
+}
+@-webkit-keyframes enter {
+    0%,50% {opacity: 0} 100% {opacity: 1}
+}
+@keyframes enter {
+    0%,50% {opacity: 0} 100% {opacity: 1}
+}
+@-webkit-keyframes leave {
+    0%,50% {opacity: 1} 100% {opacity: 0}
+}
+@keyframes leave {
+    0%,50% {opacity: 1} 100% {opacity: 0}
+}
+
+.content{
+    overflow: scroll;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-examples",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fromdenisvieira/angularjs-examples",
+  "authors": [
+    "Denis Vieira <denisvieira05@gmail.com>"
+  ],
+  "description": "Examples of angularjs to lecture 'Developing a Full Javascript application' in the course of information systems of the IFAL (Instituto Federal de Alagoas).",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "material-design-lite": "~1.0.2",
+    "angular": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-markdown-directive": "~0.3.1",
+    "angular-css": "~1.0.7"
+  }
+}

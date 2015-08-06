@@ -1,0 +1,21 @@
+{
+  "name": "angularjs-examples",
+  "version": "0.0.0",
+  "description": "Examples of angularjs to lecture 'Developing a Full Javascript application' in the course of information systems of the IFAL (Instituto Federal de Alagoas).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fromdenisvieira/angularjs-examples.git"
+  },
+  "author": "Denis Vieira <denisvieira05@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fromdenisvieira/angularjs-examples/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}

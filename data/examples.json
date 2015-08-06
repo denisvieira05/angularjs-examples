@@ -1,0 +1,16 @@
+[
+	{	
+		"id":"1",
+	    "title": "Menu de Navegação", // title of example
+	    "text-description":"article.md", // text for explication
+	    "origin":"", // origin of the example
+	    
+	    "disciplinas": 	 
+	    [           
+	        {
+	        	"sigla":"ALGO",
+	        	"nome":"Algoritmo"
+	        }
+	    ]
+	}
+]
