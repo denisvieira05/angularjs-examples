@@ -3,10 +3,22 @@
 	'use strict';
 
 	angular.module('ngExamples')
-	.controller('ExampleCtrl', ['$scope', '$rootScope','$routeParams','$css', function($scope,$rootScope,routeParams,$css) {
+	.directive('myDirective', function () {
+	  return {
+	    restrict: 'E',
+	    templateUrl: 'data/examples/navbar/navbar.html',
+	    controller: function ($scope, $css) {
+	      $css.bind('../../data/examples/navbar/navbar.css', $scope);
 
-		$css.add('../../data/examples/navbar/navbar.css');
-
+	    }
+	  }
+	})
+	.controller('ExampleCtrl', ['$scope', '$rootScope','$routeParams','$css','$route', function($scope,$rootScope,routeParams,$css,$route) {
+		$scope.$back = function() { 
+		    window.history.back();
+		};
+		$scope.idExample =  (parseFloat($route.current.params.idExample))+1; 
+		console.log($scope.idExample);
 	}]);
 
 } ());

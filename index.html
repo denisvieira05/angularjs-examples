@@ -10,9 +10,10 @@
 	
 	<!-- Bootstrap for grids -->
     <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootflatv2/bootflat/css/bootflat.min.css">
 
 	<!-- Angular Material CSS using GitCDN to load directly from `bower-material/master` -->
-	<link rel="stylesheet" href="lib/material-design-lite/material.min.css">
+	<!-- <link rel="stylesheet" href="lib/material-design-lite/material.min.css"> -->
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -33,7 +34,7 @@
 
 	</header>
 
-	<div ng-view=""></div>
+	<div class="container" ng-view=""></div>
 	
 
 	<!-- Angular Material Dependencies -->
@@ -44,8 +45,9 @@
 	<script src="lib/showdown/src/showdown.js"></script>
 	<script src="lib/angular-markdown-directive/markdown.js"></script>
 	<script src="lib/angular-css/angular-css.min.js"></script>
-
-    <script src="lib/material-design-lite/material.min.js"></script>
+	<script src="lib/angular-markdown-include/angular-markdown-include.min.js"></script>
+	
+	
 	<script src="views/app.js"></script>
 
 	<script src="views/list/ListCtrl.js"></script>

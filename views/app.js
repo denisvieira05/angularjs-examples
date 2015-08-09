@@ -3,7 +3,7 @@
 'use strict';
 
   angular.module('ngExamples', [
-    'ngRoute','ngAnimate','btford.markdown','door3.css'
+    'ngRoute','ngAnimate','btford.markdown','door3.css','angularMarkdownInclude'
     ])
     .config(['$routeProvider', function($routeProvider){
       $routeProvider
@@ -11,7 +11,7 @@
           templateUrl: 'views/list/list.html',
           controller: 'ListCtrl'
         })
-        .when('/example/:name', {
+        .when('/example/:idExample', {
           templateUrl: 'views/example/example.html',
           controller: 'ExampleCtrl'
         })        

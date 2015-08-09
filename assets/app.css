@@ -6,6 +6,13 @@ h1 small {
     color: #bdc3c7;
 }
 
+a{
+    color: #750100;
+}
+a:hover{
+    color: #8e1a00
+}
+
 header{
     padding: 50px 0px;
 }
@@ -36,5 +43,24 @@ ng-view {
 }
 
 .content{
-    overflow: scroll;
+    
+}
+
+.boxes{
+    margin-bottom: 50px;
+    font
+}
+
+
+.content div.box-md{
+    font-size: 1.5em;
+}
+
+.active{
+    background-color: #8e1a00;
+}
+
+.sub-title{
+    margin-top: -60px;
+    margin-bottom: 60px;
 }

@@ -1,6 +1,6 @@
 ##AngularJS Examples
 
-### [Demo]() | ### [Slides]()
+### [Demo]() | [Slides]()
 
 Exemplos de AngularJS para palestra " Desenvolvendo uma aplicação Full Javascript " no curso de Sistemas de Informação do IFAL (Instituto Federal de Alagoas).
 

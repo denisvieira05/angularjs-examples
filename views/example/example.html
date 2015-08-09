@@ -1,19 +1,44 @@
-<div class="mdl-data-table mdl-js-data-table mdl-shadow--2dp container">
-  	
-  	<div>		  
-    
-      <span class="mdl-data-table__cell--non-numeric "><h5 class="text-center">Title Example</h5></span>
-   
-	</div>
 
-	<div class="example">
-		<div ng-include="'data/examples/navbar/navbar.html'"></div>
-	</div>
+<div class="row example-pagination">
+  <div class="col-md-12">
+    <ul class="pager">
+      <li class="previous" ><a ng-href="#/">VOLTAR À LISTA</a></li>
+      <li class="next"><a ng-href="#/example/{{idExample}}">Próximo Exemplo</a></li>
+    </ul>
+  </div>
+</div>
 
-	<div class="content">
 
-		<div btf-markdown ng-include="'README.md'">
+<div class="row text-center">
+
+	<div class="col-md-12">
+	  
+		<div class="thumbnail">
+	    	<h4 class="text-center">Title Example</h4>
+
+	    	<!-- <div ng-model="test" ng-include="'data/examples/navbar/navbar.html'"></div> -->
+
+	    	<my-directive></my-directive>
 		</div>
-
 	</div>
+        
+
+    </div>
+
+    <div class="row">
+		
+		<div class="col-md-12">
+          
+        	<div class="thumbnail">
+            	<div class="content box-markdown">
+
+					<div btf-markdown class="box-md" ng-include="'../../data/examples/navbar/guide.md'">	
+
+				</div>
+        	</div>
+        </div>
+        
+
+    </div>
+
 </div>
