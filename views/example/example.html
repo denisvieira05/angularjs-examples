@@ -2,7 +2,7 @@
 <div class="row example-pagination">
   <div class="col-md-12">
     <ul class="pager">
-      <li class="previous" ><a ng-href="#/">VOLTAR À LISTA</a></li>
+      <li class="previous" ><a ng-href="#/">Voltar à lista</a></li>
       <li class="next"><a ng-href="#/example/{{idExample}}">Próximo Exemplo</a></li>
     </ul>
   </div>
@@ -14,11 +14,11 @@
 	<div class="col-md-12">
 	  
 		<div class="thumbnail">
-	    	<h4 class="text-center">Title Example</h4>
+	    	<h4 class="text-center">{{ example.title }}</h4>
 
 	    	<!-- <div ng-model="test" ng-include="'data/examples/navbar/navbar.html'"></div> -->
 
-	    	<my-directive></my-directive>
+	    	<ng-example></ng-example>
 		</div>
 	</div>
         
@@ -32,7 +32,7 @@
         	<div class="thumbnail">
             	<div class="content box-markdown">
 
-					<div btf-markdown class="box-md" ng-include="'../../data/examples/navbar/guide.md'">	
+					<div btf-markdown class="box-md" ng-include="'../../data/examples/'+example.guide">	
 
 				</div>
         	</div>

@@ -64,3 +64,11 @@ ng-view {
     margin-top: -60px;
     margin-bottom: 60px;
 }
+
+.panel-default>.panel-heading h5{
+    margin: 0px 0px;
+}
+
+.panel-default{
+    margin: 0;    
+}

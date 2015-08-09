@@ -27,12 +27,12 @@
   <div class="col-md-12">
    
     <div class="list-group">
-       <div class="panel panel-default">
-      <div class="panel-heading text-center"><h5>BASICO</h5></div>
+      <div class="panel panel-default">
+        <div class="panel-heading text-center"><h5>BÁSICO</h5></div>
       </div>
-      <a ng-href="#/example/1" class="list-group-item" >
-        <h4 class="list-group-item-heading">List group item heading</h4>
-        <p class="list-group-item-text" lingdex="52">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <a class="list-group-item" ng-repeat="example in examples | filter:{level:'basic'}" ng-href="#/example/{{ example.id }}">
+        <h4 class="list-group-item-heading">{{ example.title }}</h4>
+        <p class="list-group-item-text" lingdex="52">{{ example.description }}</p>
       </a>
       
     </div>
@@ -42,14 +42,14 @@
 
 <div class="row">
   <div class="col-md-12">
-    <div class="panel panel-default">
-      <div class="panel-heading text-center"><h5>AVANÇADO</h5></div>
-    </div>
+    
     <div class="list-group">
-      
-      <a ng-href="#/example/1" class="list-group-item">
-        <h4 class="list-group-item-heading">List group item heading</h4>
-        <p class="list-group-item-text" lingdex="52">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <div class="panel panel-default">
+        <div class="panel-heading text-center"><h5>AVANÇADO</h5></div>
+      </div>      
+      <a class="list-group-item"ng-repeat="example in examples | filter:{level:'advanced'}" ng-href="#/example/{{ example.id }}">
+        <h4 class="list-group-item-heading">{{ example.title }}</h4>
+        <p class="list-group-item-text" lingdex="52">{{ example.description }}</p>
       </a>
       
       </a>

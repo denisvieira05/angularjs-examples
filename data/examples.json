@@ -1,16 +1,30 @@
 [
-	{	
-		"id":"1",
-	    "title": "Menu de Navegação", // title of example
-	    "text-description":"article.md", // text for explication
-	    "origin":"", // origin of the example
-	    
-	    "disciplinas": 	 
-	    [           
-	        {
-	        	"sigla":"ALGO",
-	        	"nome":"Algoritmo"
-	        }
-	    ]
-	}
+   {
+      "id":"1",
+      "title":"Two Way Data Binding",
+      "description":"Demonstração do data binding de 2 vias (ng-model) , exemplos com strings e números",
+      "level":"basic",
+      "guide":"two-data-binding/guide.md",
+      "html5":"two-data-binding/two-data-binding.html",
+      "style":"two-data-binding/two-data-binding.css",
+      "js":[
+         {
+            "name":"test.js"
+         }
+      ]
+   },
+   {
+      "id":"2",
+      "title":"Formulário de Pedido",
+      "description":"No exemplo, eu estou usando o currency filter, para tornar um número em um preço corretamente formatado, completo com um símbolo dólar e centavos",
+      "level":"advanced",
+      "guide":"form-pedido/guide.md",
+      "html":"form-pedido/form.html",
+      "css":"form-pedido/form.css",
+      "js":[
+         {
+            "name":"test.js"
+         }
+      ]
+   }
 ]

@@ -6,6 +6,7 @@
     'ngRoute','ngAnimate','btford.markdown','door3.css','angularMarkdownInclude'
     ])
     .config(['$routeProvider', function($routeProvider){
+      
       $routeProvider
         .when('/', {
           templateUrl: 'views/list/list.html',
